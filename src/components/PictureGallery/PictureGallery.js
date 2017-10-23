@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import './PictureGallery.css';
 
 
@@ -10,20 +9,17 @@ export default class PictureGallery extends Component {
       
   }
 render(){
- 
-// const {
-//     deleteHero,
-//     selectOneHero
-// } = this.props;
+  console.log(this.props.pictures);
     return(
-      <div className="pics">
-       
-     <img src={this.props.pictures}alt ="broken"/>
+    <div className="gif">
+  
+     
+      <div className="pics" style ={ {backgroundImage:`url(${this.props.pictures})`}}>  
+     {/* <img src={this.props.pictures}alt =" "/> */}
+</div>
     
-   
+    
     </div>
-        
-    )
+     )
 }
-
-  }
+ }

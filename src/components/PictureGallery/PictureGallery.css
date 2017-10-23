@@ -1,8 +1,19 @@
 .pics{
     display:flex;
-    background-color:lavender;
-    width:400px;
+    background-image: url("https://i.pinimg.com/originals/22/86/2d/22862d627519a666d517086bdfde00d9.gif");
+  background-size: cover;
+    /* background: url("http://www.imagesbuddy.com/images/60/2013/07/hello-heart-dog-glitter.gif"); */
     height:400px;
+    width:400px;
+    
+    border-width: 0px;
+    
 
 }
 
+.gif{
+    background-image: url("https://i.pinimg.com/originals/22/86/2d/22862d627519a666d517086bdfde00d9.gif");
+    width:400px;
+    height:400px;
+    display:flex;
+}
