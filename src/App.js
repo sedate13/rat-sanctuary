@@ -30,7 +30,7 @@ getImg(){axios.get(`/api/dogs`).then(response => {
         <PictureGallery pictures={this.state.pictures} /> 
         </div>
            
-      <div>
+      <div className="random">
           <button className="btn" onClick={() => this.getImg()}> Cute rats! </button>
       </div>
        
